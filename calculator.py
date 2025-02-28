@@ -2,7 +2,8 @@
 def sum(a:int,b:int)->int:
     return a+b
 
-
+def sub(a:int,b:int)->int:
+    return a-b
 
 if __name__ == "__main__":
     a=10
@@ -10,3 +11,6 @@ if __name__ == "__main__":
     print("Beginning a new project with colab! Special patner! the best")
     c=sum(a,b)
     print(f"the sum of {a} and {b} is {c} ")
+    
+    c=sub(a,b)
+    print(f"the sub of {a} and {b} is {c}")
